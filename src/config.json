@@ -1,0 +1,36 @@
+{
+    "options": [
+        {
+            "name": "name",
+            "admins": ["user_id", "user_id"],
+            "image": "image",
+            "emoji": "emoji️",
+            "logchannel": "channel_id",
+            "role": "role_id"
+        },
+        {
+            "name": "name",
+            "admins": ["user_id", "user_id"],
+            "image": "image",
+            "emoji": "emoji️",
+            "logchannel": "channel_id",
+            "role": "role_id"
+        },
+        {
+            "name": "name",
+            "admins": ["user_id", "user_id"],
+            "image": "image",
+            "emoji": "emoji️",
+            "logchannel": "channel_id",
+            "role": "role_id"
+        },
+        {
+            "name": "name",
+            "admins": ["user_id", "user_id"],
+            "image": "image",
+            "emoji": "emoji️",
+            "logchannel": "channel_id",
+            "role": "role_id"
+        }
+    ]
+}
