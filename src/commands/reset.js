@@ -18,7 +18,7 @@ module.exports = {
     name: 'reset',
     data: new discord_js_1.SlashCommandBuilder()
         .setName('reset')
-        .setDescription('اعداد رسالة التحضير')
+        .setDescription('اعادة تعيين الوقت لعضو')
         .addUserOption((option) => option.setName('user').setDescription('الشخص الذي تريد اعادة تعييم الوقت له').setRequired(true))
         .addStringOption((option) => option
         .setName('type')

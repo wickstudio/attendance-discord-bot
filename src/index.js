@@ -36,13 +36,13 @@ for (const file of eventsFiles) {
     }));
 }
 // Load selects
-const selectsFiles = fs_1.default.readdirSync('./src/selects').filter((file) => file.endsWith('.ts'));
+const selectsFiles = fs_1.default.readdirSync('./src/selects').filter((file) => file.endsWith('.ts') || file.endsWith('.js'));
 for (const file of selectsFiles) {
     const select = require(`./selects/${file}`);
     client.selects.set(select.name, select);
 }
 // Load buttons
-const buttonsFiles = fs_1.default.readdirSync('./src/buttons').filter((file) => file.endsWith('.ts'));
+const buttonsFiles = fs_1.default.readdirSync('./src/buttons').filter((file) => file.endsWith('.ts') || file.endsWith('.js'));
 for (const file of buttonsFiles) {
     const button = require(`./buttons/${file}`);
     client.buttons.set(button.name, button);
@@ -54,6 +54,5 @@ client.once('ready', () => __awaiter(void 0, void 0, void 0, function* () {
     yield rest.put(discord_js_1.Routes.applicationCommands(client.user.id), { body: commands });
     console.log(`Bot is online! ${(_a = client.user) === null || _a === void 0 ? void 0 : _a.username}`);
     console.log('Code by Wick Studio');
-	console.log('discord.gg/wicks');
 }));
 client.login(TOKEN);

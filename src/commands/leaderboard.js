@@ -27,6 +27,7 @@ module.exports = {
         .setRequired(true)),
     execute(client, interaction) {
         return __awaiter(this, void 0, void 0, function* () {
+            interaction.deferReply({ ephemeral: true });
             const field = interaction.options.get('type');
             const Field = config_json_1.default.options.find((Field) => Field.name == field.value);
             const fieldImage = Field === null || Field === void 0 ? void 0 : Field.image; // Store the field image URL
@@ -95,7 +96,7 @@ module.exports = {
                 .setTitle('Leaderboard')
                 .setDescription('Top players based on hours played')
                 .setImage('attachment://leaderboard.png');
-            yield interaction.reply({ embeds: [embed], files: [attachment], ephemeral: true });
+            yield interaction.editReply({ embeds: [embed], files: [attachment] });
         });
     },
 };

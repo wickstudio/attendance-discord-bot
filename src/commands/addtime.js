@@ -34,7 +34,7 @@ module.exports = {
             const field = interaction.options.get('type');
             const time = interaction.options.get('time');
             const Field = config_json_1.default.options.find((Field) => Field.name == field.value);
-            if (!(Field === null || Field === void 0 ? void 0 : Field.admins.some((user) => roles.get(user))))
+            if (!(Field === null || Field === void 0 ? void 0 : Field.admins.includes(interaction.user.id)))
                 return interaction.reply({ content: 'لا يوجد لديك صلاحية', ephemeral: true });
             try {
                 const parseTime = (0, ms_1.default)(time.value);

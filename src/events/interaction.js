@@ -26,7 +26,7 @@ module.exports = {
                     runner.execute(client, interaction);
                 // Handle Buttons interaction
             }
-            else if (interaction.isButton()) {
+            else if (interaction.isButton() || interaction.isModalSubmit()) {
                 const runner = client.buttons.filter((key, value) => interaction.customId.startsWith(key.name));
                 if (runner.first())
                     runner.first().execute(client, interaction);

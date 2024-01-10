@@ -19,6 +19,10 @@ module.exports = {
     data: new discord_js_1.SlashCommandBuilder().setName('setup').setDescription('اعداد رسالة التحضير'),
     execute(client, interaction) {
         return __awaiter(this, void 0, void 0, function* () {
+            if (!config_json_1.default.options.filter((field) => field.admins.includes(interaction.user.id)).length) {
+                yield interaction.reply({ content: 'ليس لديك صلاحية لإدارة الأقسام', ephemeral: true });
+                return;
+            }
             const select = new discord_js_1.StringSelectMenuBuilder()
                 .setCustomId('setup')
                 .setPlaceholder('اختر القسم الذي تريد انشاء رسالة تحضير له')
