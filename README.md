@@ -41,7 +41,7 @@ Save the changes to `src/config.json.`
 ## Usage
 Run the bot using:
 ```
-node src/index.js
+node src/build.js
 ```
 # License
 This project is licensed under the MIT License.
