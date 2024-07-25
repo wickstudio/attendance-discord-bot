@@ -1,37 +1,41 @@
 {
   "token": "YOUR_DISCORD_BOT_TOKEN",
+ {
   "options": [
     {
-      "name": "القسم_الاول",
-      "admins": ["ايديك", "ايديك"],
-      "image": "رابط_الصورة",
-      "emoji": "الايموجي",
-      "logchannel": "ايدي_روم",
-      "role": "ايدي_رتبة"
-    },
-    {
-      "name": "القسم_الاول",
-      "admins": ["ايديك", "ايديك"],
-      "image": "رابط_الصورة",
-      "emoji": "الايموجي",
-      "logchannel": "ايدي_روم",
-      "role": "ايدي_رتبة"
-    },
-    {
-      "name": "القسم_الاول",
-      "admins": ["ايديك", "ايديك"],
-      "image": "رابط_الصورة",
-      "emoji": "الايموجي",
-      "logchannel": "ايدي_روم",
-      "role": "ايدي_رتبة"
-    },
-    {
-      "name": "القسم_الاول",
-      "admins": ["ايديك", "ايديك"],
-      "image": "رابط_الصورة",
-      "emoji": "الايموجي",
-      "logchannel": "ايدي_روم",
-      "role": "ايدي_رتبة"
-    }
-  ]
-}
+            "name": "الاداره العليا",
+            "admins": ["1245495342976471050", "1022190954767196282"],
+            "image": "https://cdn.discordapp.com/attachments/1245507372013588563/1265856594260791297/image.png?ex=66a30852&is=66a1b6d2&hm=c17d0f62a5ab3bb78a5b5834286aece8fdfd6abdbfabfb9268f404496c865120&",
+            "emoji": "<:ArabVenex:1261104013601017876>",
+
+            "logchannel": "1247980918673510542",
+            "role": "1247979944835809351"
+          },
+          {
+            "name": "ادمن منجر",
+            "admins": ["1022190954767196282", "1245495342976471050"],
+            "image": "https://cdn.discordapp.com/attachments/1245507372013588563/1265856594260791297/image.png?ex=66a30852&is=66a1b6d2&hm=c17d0f62a5ab3bb78a5b5834286aece8fdfd6abdbfabfb9268f404496c865120&",
+            "emoji": "<:ArabVenex:1261104013601017876>",
+
+            "logchannel": "1247981021870161950",
+
+            "role": "1247979956386922507"
+          },
+          {
+            "name": "رقابه",
+            "admins": ["1245495342976471050", "1022190954767196282"],
+            "image": "https://cdn.discordapp.com/attachments/1245507372013588563/1265856594260791297/image.png?ex=66a30852&is=66a1b6d2&hm=c17d0f62a5ab3bb78a5b5834286aece8fdfd6abdbfabfb9268f404496c865120&",
+            "emoji": "<:ArabVenex:1261104013601017876>",
+            "logchannel": "1261425977633013883",
+            "role": "1247979975437451416"
+          },
+          {
+            "name": "ترفيه",
+            "admins": ["1022190954767196282", "1245495342976471050"],
+            "image": "https://cdn.discordapp.com/attachments/1245507372013588563/1265856594260791297/image.png?ex=66a30852&is=66a1b6d2&hm=c17d0f62a5ab3bb78a5b5834286aece8fdfd6abdbfabfb9268f404496c865120&",
+            "emoji": "<:ArabVenex:1261104013601017876>",
+            "logchannel": "1261442251020701717",
+            "role": "1265840719776579664"
+          }
+        ]
+      }
