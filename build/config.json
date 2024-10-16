@@ -1,0 +1,16 @@
+{
+    "TOKEN": "TOKEN",
+    "CLIENT_ID": "Bot_ID",
+    "GUILD_ID": "Server_ID",
+    "options": [
+        {
+            "name": "Section Name",
+            "admins": ["ID", "ID"],
+            "image": "LINK",
+            "emoji": "🛠️",
+            "logchannel": "ID",
+            "role": "ID"
+        }
+    ],
+    "managerLogChannel": "ID"
+}
